@@ -7,3 +7,6 @@ temperture = 100
 if not (temperture > 100):
     print ("it's not really hot outside")
 print  ("it's a great day") 
+print("Hello Python World")
+if ("weather. is > hot"):
+    print ("smiley face")
