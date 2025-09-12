@@ -1,0 +1,17 @@
+anime = ['Naruto', 'One Piece', 'Demon Slayer']
+other_anime = ['Horimiya', 'Dragon Ball Z', 'Bleach']
+other_anime.insert(0, 'Dandadan')
+other_anime.insert(1, "That Time I Got Reincarnated as a Slime")
+other_anime.append("Overlord")
+print(f"{anime[0]} is amazing , It's been a while since I rewatched {other_anime[5]}.")
+other_anime.pop(5)
+print(f"{anime[1]} is so peak, over 1000 episodes and a great plot.... but that is alot of episodes.")
+anime.pop(1)
+print(f"{anime[1]} has a great plot and amazing opening intro!")
+print(f"{other_anime[2]} has some of the best character developement I've ever seen.")
+print(f"{other_anime[0]} is fire has some of the best anime powers and drip i have ever seen and a great plot.")
+print(f"{other_anime[1]} now this anime is really peak and has fire battles.")
+other_anime.pop(2)
+print(anime)
+print(other_anime)
+print(f"I always recomend my top {len(anime) + len(other_anime)} anime for others to watch.")
