@@ -1,7 +1,16 @@
+
+import os
+print("Current working directory:", os.getcwd())
+
+
+
+from pathlib import Path
+
+
 file_paths = [
     Path("pride_and_prejudice.txt"),
     Path("dracula.txt"),
-    Path("frankenstein.txt")
+    Path("moby_dick.txt")
 ]
 
 
@@ -17,5 +26,3 @@ for path in file_paths:
     except Exception as e:
         print(f"Error reading {path.name}: {e}")
 
-
-#it wont workkkkkkkk :(

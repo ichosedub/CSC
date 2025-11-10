@@ -1,0 +1,4 @@
+In Python you can build games
+In Python you can keep track of data
+In Python you can make lists of names, places, etc
+In Python you can make number counters
